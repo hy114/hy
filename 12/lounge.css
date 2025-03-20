@@ -1,16 +1,22 @@
 body{  
-  font-family: arial;
+  font-family: 'Verdana', 'Geneva', 'Arial', 'sans-serif';
   font-size: 1.5em;
 }
 p{
   color: maroon;
+  font-size: 2vw;
 }
 h1,h2{
   color: grey;
+  font-size: 1.4rem;
 }
 h1{
+  font-size: 2rem;
   border-bottom: 1px solid black;
 }
 em {
   font-family: "Cascadia Mono";
+}
+html{
+  font-size: 14px;
 }
