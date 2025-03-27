@@ -20,3 +20,10 @@ em {
 html{
   font-size: 14px;
 }
+body{
+  color: slateblue;
+  color: rgb(65, 105, 225);
+  color: #ef3473;
+  color: rgba(39,177,182,0.8);
+  	color: #621d34;
+}
