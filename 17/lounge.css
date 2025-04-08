@@ -76,3 +76,14 @@ h2 {
 a{
   text-decoration: none;
 }
+.slfs{
+  color: #000;
+}
+h1, h2 {
+  font-weight: 600;
+}
+
+
+  h1 {
+    font-weight: 200;
+  }
