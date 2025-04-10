@@ -1,0 +1,98 @@
+body {
+	font-size: small;
+	font-family: Verdana,Helvetica, Arial;
+	line-height: 1.6em;
+}
+
+h1, h2 {
+	color: #007e7e; /* 将标题设置为一种青绿色，使他和 logo 更相合 */
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+.guarantee {
+  border-color:        white;
+  border-width:        1px;
+  border-style:        dashed;
+  background-color:    #a7cece;
+  padding:             25px;
+  margin:              30px;
+  line-height:         1.9em;
+  font-style:           italic;
+  color:               #444444;
+  font-family:         "Georgia", "Times New Roman", "Times","0serif"; 
+  background-image: url(images/background.gif);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding: 25px;
+  padding-left: 80px;
+  margin-right: 250px;
+  border-top-right-radius: 3em;
+  border-bottom-left-radius:3em;
+  border-style:solid;
+}
+
+.elixirs{
+	border-width: thin;
+	border-style: solid;
+	border-color: #007e7e;
+	width: 200px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	margin-left: 20px;
+	text-align: center;
+	background-image: url(images/cocktail.gif);
+	background-repeat: repeat-x;
+  line-height: 1;
+}
+.elixirs h2{
+  color:black;
+}
+.elixirs > h3{
+  color:#d12c47;
+} 
+.cd{
+  font-style: italic;
+}
+.artist{
+  font-weight: bold;
+}
+.elixirs a:link{
+  color:#007e7e;
+}
+.elixirs a:visited{
+  color: #333333;
+}
+.elixirs a:hover{
+  background: #f88396;
+  color: #0d5353;
+}
+a{
+  text-decoration: none;
+}
+.slfs{
+  color: #000;
+}
+h1, h2 {
+  font-weight: 600;
+}
+
+
+  h1 {
+    font-weight: 200;
+  }
+.elixirs{
+  float: right;
+}
+.cd{
+  margin-left: 20px;
+}
+.artist{
+  margin-left: 50px;
+}
