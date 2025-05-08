@@ -1,0 +1,12 @@
+.mcimg1 {
+	left: 45%;
+}
+
+.mclj :any-link{
+  background: #f88396;
+  color: #0d5353;
+}
+.mc2top{
+  color: var(--mc-theme-primary-color, var(--mc-core-rich-black));
+  
+}
