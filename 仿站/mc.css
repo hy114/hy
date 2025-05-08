@@ -1,12 +1,72 @@
-.mcimg1 {
-	left: 45%;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.mclj :any-link{
-  background: #f88396;
-  color: #0d5353;
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(23,22,21);
+  color: white;
 }
-.mc2top{
-  color: var(--mc-theme-primary-color, var(--mc-core-rich-black));
-  
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  line-height: 2rem;
+  font-family: "MinecraftTenv2", "MinecraftTen", "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  color :rgb(108, 195, 73);
+  border-radius: 3px;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.game-card {
+  background-color: #222;
+  overflow: hidden;
+}
+
+.game-card img {
+  width: 100%;
+  display: block;
+}
+
+.game-card h2 {
+  padding: 10px;
+}
+
+.game-card p {
+  padding: 0 10px 10px;
+  font-size: 14px;
+}
+
+.platform-icons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding: 10px;
+}
+
+.platform-icons img {
+  width: 20px;
+  height: 20px;
 }
