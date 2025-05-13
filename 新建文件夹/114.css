@@ -1,0 +1,103 @@
+/* 全局样式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #fff;
+}
+
+.marketplace-container {
+  display: flex;
+  padding: 20px;
+}
+
+.left-section {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.right-section {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 3em;
+  color: #ffd700;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.explore-button {
+  display: inline-block;
+  background-color: #ffd700;
+  color: #111;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.arrow-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.prev-button,
+.next-button {
+  background-color: transparent;
+  border: none;
+  color: #ffd700;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.addon-card {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.addon-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.addon-card h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.addon-card p {
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+.rating {
+  color: #ffd700;
+  margin-bottom: 5px;
+}
+
+.price {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #ffd700;
+}

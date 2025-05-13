@@ -8,7 +8,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: rgb(23,22,21);
+  background-color: #171615;;
   color: white;
 }
 
@@ -18,10 +18,11 @@ header {
 }
 
 h1 {
-  text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 2rem;
   line-height: 2rem;
+  letter-spacing: -.015em;
+  text-align: center;
   font-family: "MinecraftTenv2", "MinecraftTen", "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
 }
 
@@ -33,6 +34,11 @@ h1 {
   border-radius: 3px;
 }
 
+h2{
+  color: #fff;
+  font-weight: 400;
+}
+
 .game-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -41,8 +47,9 @@ h1 {
 }
 
 .game-card {
-  background-color: #222;
   overflow: hidden;
+  color: #ABA09C;
+  line-height: 1.5rem;
 }
 
 .game-card img {
