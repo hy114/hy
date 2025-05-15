@@ -6,33 +6,46 @@
   box-sizing: border-box;
 }
 
-body {
+.zwm {
   font-family: Arial, sans-serif;
   background-color: #171615;;
   color: white;
+ width :1457px;
+ margin-left:          auto;
+ margin-right:         auto;
+
 }
 
-header {
+.sh {
   text-align: center;
   padding: 20px;
 }
 
 h1 {
-  letter-spacing: 2px;
-  font-size: 2rem;
-  line-height: 2rem;
-  letter-spacing: -.015em;
   text-align: center;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+  letter-spacing: -.015em;
+  width: 1457px;
   font-family: "MinecraftTenv2", "MinecraftTen", "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
 }
 
-.btn {
+.lj1 {
   display: inline-block;
   margin-top: 10px;
   padding: 5px 10px;
-  color :rgb(108, 195, 73);
   border-radius: 3px;
+  width: auto;
+  text-align: center;
+  margin-top: 16px
 }
+.lj1 a{
+  color :rgb(108, 195, 73);
+}
+.lj1 a:hover {
+  color: #fff;
+}
+
 
 h2{
   color: #fff;
@@ -49,11 +62,14 @@ h2{
 .game-card {
   overflow: hidden;
   color: #ABA09C;
-  line-height: 1.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 .game-card img {
   width: 100%;
+  width :346.25px;
   display: block;
 }
 
@@ -76,4 +92,12 @@ h2{
 .platform-icons img {
   width: 20px;
   height: 20px;
+}
+.allcontent {
+	width:               800px;
+	padding-top:           5px;
+	padding-bottom:        5px;
+	background-color:  #675c47;
+	margin-left:          auto;
+	margin-right:         auto;
 }

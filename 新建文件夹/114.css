@@ -7,8 +7,11 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #111;
+  background-color :rgb(38, 36, 35);
   color: #fff;
+  width :1920px;
+  margin-left:          auto;
+	margin-right:         auto;
 }
 
 .marketplace-container {
@@ -68,7 +71,7 @@ p {
 .addon-card {
   width: calc(33.33% - 20px);
   margin-bottom: 20px;
-  background-color: #333;
+  background-color:rgb(61, 57, 56);
   padding: 10px;
   border-radius: 5px;
   position: relative;

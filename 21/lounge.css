@@ -40,7 +40,7 @@ h2 {
 .elixirs{
 	border-width: thin;
 	border-style: solid;
-	border-color: #007e7e;
+	border-color: black;
 	width: 200px;
 	padding-right: 20px;
 	padding-bottom: 20px;
@@ -71,7 +71,7 @@ h2 {
 }
 .elixirs a:hover{
   background: #f88396;
-  color: #0d5353;
+  color: #fff;
 }
 a{
   text-decoration: none;
