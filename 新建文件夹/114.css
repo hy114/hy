@@ -69,7 +69,7 @@ p {
 }
 
 .addon-card {
-  width: calc(33.33% - 20px);
+  width:280px;
   margin-bottom: 20px;
   background-color:rgb(61, 57, 56);
   padding: 10px;
