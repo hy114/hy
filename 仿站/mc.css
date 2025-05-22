@@ -5,21 +5,24 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  background-color: #171615;
- 
-}
-.zwm {
+
+
+.zww {
+  position: relative;
   font-family: Arial, sans-serif;
   background-color: #171615;
   color: white;
- width :1457px;
  margin-left:          auto;
  margin-right:         auto;
 
 }
+.d1bf1 {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.sh {
+.bt {
   text-align: center;
   padding: 20px;
 }
@@ -29,23 +32,25 @@ h1 {
   font-size: 3.5rem;
   line-height: 3.5rem;
   letter-spacing: -.015em;
-  width: 1457px;
-  font-family: "MinecraftTenv2", "MinecraftTen", "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.lj1 {
+.clj1 {
   display: inline-block;
   margin-top: 10px;
   padding: 5px 10px;
   border-radius: 3px;
   width: auto;
   text-align: center;
-  margin-top: 16px
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.lj1 a{
+.clj1 a{
   color :rgb(108, 195, 73);
 }
-.lj1 a:hover {
+.clj1 a:hover {
   color: #fff;
 }
 
@@ -55,14 +60,17 @@ h2{
   font-weight: 400;
 }
 
-.game-grid {
+.d1bf2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
   padding: 20px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.game-card {
+.tu1 {
   overflow: hidden;
   color: #ABA09C;
   font-size: 1rem;
@@ -70,37 +78,221 @@ h2{
   line-height: 1.5;
 }
 
-.game-card img {
-  width: 100%;
-  width :346.25px;
-  display: block;
+.tu2 {
+  overflow: hidden;
+  color: #ABA09C;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
-.game-card h2 {
+.tu3 {
+  overflow: hidden;
+  color: #ABA09C;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.tu4 {
+  overflow: hidden;
+  color: #ABA09C;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.d1bf2 img {
+  width: 100%;
+}
+
+.d1bf2 h2 {
   padding: 10px;
 }
 
-.game-card p {
+.d1bf2 p {
   padding: 0 10px 10px;
   font-size: 14px;
+  
 }
 
-.platform-icons {
+.xtb {
   display: flex;
   justify-content: center;
   gap: 5px;
   padding: 10px;
 }
 
-.platform-icons img {
+.xtb img {
   width: 20px;
   height: 20px;
 }
-.allcontent {
-	width:               800px;
-	padding-top:           5px;
-	padding-bottom:        5px;
-	background-color:  #675c47;
-	margin-left:          auto;
-	margin-right:         auto;
+/* 全局样式 */
+
+.d2bfyw {
+  display: flex;
+  padding: 20px;
+  background-color :rgb(38, 36, 35);
+  color: #fff;
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+.bt2  {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.d2bf {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+h3 {
+  font-size: 3em;
+  color: #ffd700;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.clj2 {
+  position: relative;
+  color: #111;
+
+}
+
+.cljtp{
+  background-color: #FFC42B;
+  left:46px;
+  height: 49PX;
+  width: 288PX;
+  position: relative;
+}
+
+.zytb {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.z,
+.y {
+  background-color: transparent;
+  border: none;
+  color: #ffd700;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.tk1 {
+  left:-10px;
+  width: 280PX;
+  height: 299PX;
+  background-color:rgb(61, 57, 56); 
+  position: relative;
+}
+
+.tu21 {
+  top:13px;
+  width:248px;
+  left:16.5px;
+  position: relative;
+}
+
+.tk2 {
+  left:-70px;
+  width: 280PX;
+  height: 299PX;
+  background-color:rgb(61, 57, 56); 
+  position: relative;
+}
+
+.tu22 {
+  top:13px;
+  width:248px;
+  left:15px;
+  position: relative;
+}
+
+.tk3 {
+  left:-130px;
+  width: 280PX;
+  height: 299PX;
+  background-color:rgb(61, 57, 56); 
+  position: relative;
+}
+
+.tu23 {
+  top:13px;
+  width:248px;
+  left:15px;
+  position: relative;
+}
+
+.tk4 {
+  left:-190px;
+  width: 280PX;
+  height: 299PX;
+  background-color:rgb(61, 57, 56); 
+  position: relative;
+}
+
+.tu24 {
+  top:13px;
+  width:248px;
+  left:15px;
+  position: relative;
+}
+
+.tk5 {
+  left:-250px;
+  width: 280PX;
+  height: 299PX;
+  background-color:rgb(61, 57, 56); 
+  position: relative;
+}
+
+.tu25 {
+  top:13px;
+  width:248px;
+  left:15px;
+  position: relative;
+}
+
+.d2bf img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.d2bf h4 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.d2bf p {
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+.rating {
+  color: #ffd700;
+  margin-bottom: 5px;
+}
+
+.price {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #ffd700;
 }
