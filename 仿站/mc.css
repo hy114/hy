@@ -1,5 +1,3 @@
-
-
 * {
   margin: 0;
   padding: 0;
@@ -8,44 +6,47 @@
 
 
 .zww {
+  margin: 0;    /* 清除默认的外边距 */ 
+  overflow-x: hidden;
+  justify-content: center;  /* 水平居中 */
+  align-items: center;      /* 垂直居中 */
+
+}
+.d1bf1 {
+  width: 100%;
+  height: 120px;
   position: relative;
   font-family: Arial, sans-serif;
   background-color: #171615;
   color: white;
- margin-left:          auto;
- margin-right:         auto;
-
-}
-.d1bf1 {
-  position: relative;
   margin-left: auto;
   margin-right: auto;
 }
 
 .bt {
-  text-align: center;
   padding: 20px;
 }
 
 h1 {
-  text-align: center;
+  left: 499.5px;
   font-size: 3.5rem;
-  line-height: 3.5rem;
-  letter-spacing: -.015em;
-  margin-left: auto;
-  margin-right: auto;
+  position: relative;
+  src: url('./zt/MinecraftTen-VGORe.woff') format('woff');
+  font-family: 'Minecraft', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: -0.005em;
 }
 
 .clj1 {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 5px 10px;
-  border-radius: 3px;
-  width: auto;
-  text-align: center;
-  margin-top: 16px;
-  margin-left: auto;
-  margin-right: auto;
+  top: 104px;
+  left: 600px;
+  width: 378PX;
+  font-weight: bold;
+  position: absolute;
+  transform: scale(0.99); /* 等比缩小到99% */
+  transform-origin: center center; /* 缩放中心点为中心 */
+  
 }
 .clj1 a{
   color :rgb(108, 195, 73);
@@ -56,78 +57,346 @@ h1 {
 
 
 h2{
+  top: 421px;
+  left: 62px;
+  font-size: 1.6rem;
   color: #fff;
   font-weight: 400;
+  letter-spacing: .04em;
+  position: relative;
+}
+
+h22{
+  top: 421px;
+  left: 428px;
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: .04em;
+  position: absolute;
+}
+
+h23{
+  top: 421px;
+  left: 799px;
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: .04em;
+  position: absolute;
+}
+
+h24{
+  top: 421px;
+  left: 1169px;
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: .04em;
+  position: absolute;
 }
 
 .d1bf2 {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 20px;
+  width: 100%;
+  height: 596px;
   position: relative;
+  font-family: Arial, sans-serif;
+  background-color: #171615;
   margin-left: auto;
   margin-right: auto;
 }
 
 .tu1 {
   overflow: hidden;
-  color: #ABA09C;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
+  top: 52px;
+  left:60px;
+  width: 346PX;
+  height: 349PX;
+  position: absolute;
+}
+
+.tu1wz {
+  margin-bottom: 20px;
+  color: rgb(171, 160, 156);
+  top: 428.5px;
+  left:59px;
+  position: relative;
+  font-size: 0.925rem;
+  line-height: 1.5rem
+}
+
+.tu2wz {
+  margin-bottom: 20px;
+  color: rgb(171, 160, 156);
+  top: 457.5px;
+  left:429px;
+  position: absolute;
+  font-size: 0.925rem;
+  line-height: 1.5rem
+}
+
+.tu3wz {
+  margin-bottom: 20px;
+  color: rgb(171, 160, 156);
+  top: 457.5px;
+  left:800px;
+  position: absolute;
+  font-size: 0.925rem;
+  line-height: 1.5rem
+}
+
+.tu4wz {
+  margin-bottom: 20px;
+  color: rgb(171, 160, 156);
+  top: 457.5px;
+  left:1170px;
+  position: absolute;
+  font-size: 0.925rem;
+  line-height: 1.5rem
 }
 
 .tu2 {
   overflow: hidden;
-  color: #ABA09C;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
+  top: 52px;
+  left:430px;
+  width: 347PX;
+  height: 349PX;
+  position: absolute;
 }
 
 .tu3 {
   overflow: hidden;
-  color: #ABA09C;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
+  top: 52px;
+  left:801px;
+  width: 346PX;
+  height: 349PX;
+  position: absolute;
 }
 
 .tu4 {
   overflow: hidden;
-  color: #ABA09C;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
+  top: 52px;
+  left: 1171px;
+  width: 346PX;
+  height: 349PX;
+  position: absolute;
+}
+
+.x1{
+  top: 522px;
+  left:429px;
+  height: 2PX;
+  width: 349PX;
+  background-color: #262423;
+  position:absolute;
+}
+
+.x2{
+  top: 522px;
+  left:59px;
+  height: 2PX;
+  width: 349PX;
+  background-color: #262423;
+  position:absolute;
+}
+
+.x3{
+  top: 522px;
+  left:800px;
+  height: 2PX;
+  width: 349PX;
+  background-color: #262423;
+  position:absolute;
+}
+
+.x4{
+  top: 522px;
+  left:1170px;
+  height: 2PX;
+  width: 349PX;
+  background-color: #262423;
+  position:absolute;
+}
+
+.w1{
+  top: 533px;
+  left:59.5px;
+  font-size: 23px;
+  position:absolute;
+}
+
+.l1{
+  top: 535px;
+  left:97px;
+  font-size: 20px;
+  position:absolute;
+}
+
+.xb1{
+  top: 535px;
+  left:131.5px;
+  font-size: 20px;
+  position:absolute;
+}
+
+.sw1{
+  top: 525px;
+  left:196px;
+  font-size: 20px;
+  position:absolute;
+}
+
+.pl1{
+  top: 535px;
+  left:169px;
+  font-size: 20px;
+  position:absolute;
+}
+
+.ap1{
+  top: 534px;
+  left:241px;
+  font-size: 22px;
+  position:absolute;
+}
+
+.and1{
+  top: 538px;
+  left:276px;
+  font-size: 18px;
+  position:absolute;
+}
+
+.f1{
+  color:rgb(107, 101, 98);
+  top: 538px;
+  left:348px;
+  font-size: 15px;
+  position:absolute;
+}
+
+.c1{
+  top: 535px;
+  left:312px;
+  font-size: 20px;
+  position:absolute;
+}
+
+.w2{
+  top: 533px;
+  left:430px;
+  font-size: 23px;
+  position:absolute;
+}
+
+.xb2{
+  top: 535px;
+  left: 464.5px;
+  font-size: 20px;
+  position:absolute;
+}
+
+.pl2{
+  top: 535px;
+  left:500px;
+  font-size: 19px;
+  position:absolute;
+}
+
+
+.sw2{
+  top: 525px;
+  left:529px;
+  font-size: 20px;
+  position:absolute;
+}
+
+.st2{
+  top: 534px;
+  left:574px;
+  font-size: 20px;
+  position:absolute;
+}
+
+.w3{
+  top: 535px;
+  left:800.5px;
+  font-size: 23px;
+  position:absolute;
+}
+
+.xb3{
+  top: 535px;
+  left: 835px;
+  font-size: 20px;
+  position:absolute;
+}
+
+.pl3{
+  top: 535px;
+  left:870.5px;
+  font-size: 19px;
+  position:absolute;
+}
+
+.sw3{
+  top: 525px;
+  left:899.5px;
+  font-size: 20px;
+  position:absolute;
+}
+
+.st3{
+  top: 534px;
+  left: 945.5px;
+  font-size: 20px;
+  position:absolute;
+}
+
+.w4{
+  top: 535px;
+  left:1171px;
+  font-size: 23px;
+  position:absolute;
+}
+
+.ap4{
+  top: 534px;
+  left:1208px;
+  font-size: 22px;
+  position:absolute;
+}
+
+.c4{
+  top: 535px;
+  left:1243px;
+  font-size: 20px;
+  position:absolute;
+}
+
+.and4{
+  top: 538px;
+  left:1278px;
+  font-size: 18px;
+  position:absolute;
+}
+
+i {
+
+  color:rgb(107, 101, 98);
 }
 
 .d1bf2 img {
   width: 100%;
 }
 
-.d1bf2 h2 {
-  padding: 10px;
-}
 
-.d1bf2 p {
-  padding: 0 10px 10px;
-  font-size: 14px;
-  
-}
 
-.xtb {
-  display: flex;
-  justify-content: center;
-  gap: 5px;
-  padding: 10px;
+.xtp2{
+  top: 540px;
+  left:428px;
+  position:absolute;
 }
-
-.xtb img {
-  width: 20px;
-  height: 20px;
-}
-/* 全局样式 */
 
 .d2bfyw {
   display: flex;
@@ -136,6 +405,9 @@ h2{
   color: #fff;
   position: relative;
   font-family: Arial, sans-serif;
+  width: 100%;
+  margin-left:          auto;
+  margin-right:         auto;
 }
 
 .bt2  {
@@ -151,55 +423,108 @@ h2{
   color: #fff;
   font-family: Arial, sans-serif;
   position: relative;
+    justify-content: center;  /* 水平居中 */
+  align-items: center;      /* 垂直居中 */
 }
 
 h3 {
-  font-size: 3em;
-  color: #ffd700;
   margin-bottom: 20px;
+  background: linear-gradient(to right, #ffc52c, #fee86a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  left: 64px;
+  top: 72px;
+  font-size: 3.5rem;
+  position: absolute;
+  font-family: 'Minecraft', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: -0.005em;
 }
 
-p {
-  margin-bottom: 20px;
-  line-height: 1.5;
-}
 
 .clj2 {
-  position: relative;
-  color: #111;
-
+  position: absolute;
+  color:#071927;
+  text-decoration: none;
+  font-weight: 700;
+  top: 14.75px;
+  left: 28px;
+  font-size: 1.05rem;
 }
 
-.cljtp{
+.jbxm1{
+  position: absolute;
+  top: 210px;
+  left: 64px;
+  line-height: 1.5;
+  font-size: 1.055rem;
+}
+
+.cljtp1{
   background-color: #FFC42B;
+  top:287px;
   left:46px;
   height: 49PX;
   width: 288PX;
   position: relative;
+  box-shadow: inset 0 -6px 0 #DB9F21, inset 0 6px 0 #FFD953;
+  
+}
+
+
+
+.clj2:hover{
+  background: #ffe175;
+  box-shadow: -19.25px 0 0 8.6px #ffe175, 23px 0 0 8.6px #ffe175;
 }
 
 .zytb {
   margin-top: 20px;
   display: flex;
-  justify-content: space-between;
-  width: 100px;
+  justify-content: center;
+  gap: 40px; /* 或更大 */
+  width: 100%;
 }
 
-.z,
-.y {
-  background-color: transparent;
-  border: none;
-  color: #ffd700;
-  font-size: 2em;
-  cursor: pointer;
+.arrowright{
+  font-family: 'Minecraft', sans-serif;
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 400px;
+  left: 160px;
+}
+
+.arrowleft{
+  font-family: 'Minecraft', sans-serif;
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 400px;
+  left: 64px;
+}
+
+.arrowleft:hover {
+  color: #db9f21; /* 悬停时变金色 */
+}
+
+.arrowright:hover {
+  color: #db9f21; /* 悬停时变金色 */
 }
 
 .tk1 {
+  top: 53px;
   left:-10px;
   width: 280PX;
   height: 299PX;
   background-color:rgb(61, 57, 56); 
-  position: relative;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
 }
 
 .tu21 {
@@ -207,14 +532,19 @@ p {
   width:248px;
   left:16.5px;
   position: relative;
+  
 }
 
 .tk2 {
-  left:-70px;
+  top: 53px;
+  left:294px;
   width: 280PX;
   height: 299PX;
   background-color:rgb(61, 57, 56); 
-  position: relative;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
 }
 
 .tu22 {
@@ -225,11 +555,15 @@ p {
 }
 
 .tk3 {
-  left:-130px;
+  top: 53px;
+  left:598px;
   width: 280PX;
   height: 299PX;
   background-color:rgb(61, 57, 56); 
-  position: relative;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
 }
 
 .tu23 {
@@ -240,11 +574,15 @@ p {
 }
 
 .tk4 {
-  left:-190px;
+  top: 53px;
+  left:902px;
   width: 280PX;
   height: 299PX;
   background-color:rgb(61, 57, 56); 
-  position: relative;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
 }
 
 .tu24 {
@@ -255,11 +593,15 @@ p {
 }
 
 .tk5 {
-  left:-250px;
+  top: 53px;
+  left:1206px;
   width: 280PX;
   height: 299PX;
   background-color:rgb(61, 57, 56); 
-  position: relative;
+  position:absolute;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
 }
 
 .tu25 {
@@ -269,30 +611,305 @@ p {
   position: relative;
 }
 
+.clj3{
+  position: absolute;
+  color:#fff;
+  text-decoration: none;
+  font-weight: 700;
+  top: 165px;
+  left: 0px;
+  font-size: 1.05rem;
+  letter-spacing: -0.008em;
+  text-shadow: 0 0 1.5px #fff;
+}
+
+.clj4{
+  position: absolute;
+  color:#fff;
+  text-decoration: none;
+  font-weight: 700;
+  top: 165px;
+  left: 0px;
+  font-size: 1.05rem;
+  letter-spacing: -0.008em;
+  text-shadow: 0 0 1.5px #fff;
+}
+
+.clj5{
+  position: absolute;
+  color:#fff;
+  text-decoration: none;
+  font-weight: 700;
+  top: 165px;
+  left: 0px;
+  font-size: 1.05rem;
+  letter-spacing: -0.008em;
+  text-shadow: 0 0 1.5px #fff;
+}
+
+.clj6{
+  position: absolute;
+  color:#fff;
+  text-decoration: none;
+  font-weight: 700;
+  top: 165px;
+  left: 0px;
+  font-size: 1.05rem;
+  letter-spacing: -0.008em;
+  text-shadow: 0 0 1.5px #fff;
+}
+
+.clj7{
+  position: absolute;
+  color:#fff;
+  text-decoration: none;
+  font-weight: 700;
+  top: 165px;
+  left: 0px;
+  font-size: 1.05rem;
+  letter-spacing: -0.008em;
+  text-shadow: 0 0 1.5px #fff;
+}
+
+.dx{
+  font-size: 1.2rem; /* 或任意你想要的大小 */
+}
+
+.clj3:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.clj4:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.clj5:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.clj6:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.clj7:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
 .d2bf img {
   width: 100%;
   height: auto;
   margin-bottom: 10px;
 }
 
-.d2bf h4 {
-  font-size: 1.2em;
-  margin-bottom: 5px;
-}
-
-.d2bf p {
-  font-size: 0.9em;
-  color: #ccc;
-}
-
-.rating {
-  color: #ffd700;
-  margin-bottom: 5px;
-}
-
-.price {
+.js1 {
+  left: 0px;
+  top: 205px;
+  font-size: .875rem;
+  color: #D0C5C0;
   position: absolute;
-  bottom: 10px;
-  right: 10px;
-  color: #ffd700;
+}
+
+.js2 {
+  left: 0px;
+  top: 205px;
+  font-size: .875rem;
+  color: #D0C5C0;
+  position: absolute;
+}
+
+.js3 {
+  left: 0px;
+  top: 205px;
+  font-size: .875rem;
+  color: #D0C5C0;
+  position: absolute;
+}
+
+.js4 {
+  left: 0px;
+  top: 205px;
+  font-size: .875rem;
+  color: #D0C5C0;
+  position: absolute;
+}
+
+.js5 {
+  left: 0px;
+  top: 205px;
+  font-size: .875rem;
+  color: #D0C5C0;
+  position: absolute;
+}
+
+.xx1{
+  top: 245px;
+  left: 0px;
+  width: 22px;
+  position: absolute;
+}
+
+.xx2{
+  top: 245px;
+  left: 0px;
+  width: 22px;
+  position: absolute;
+}
+
+.xx3{
+  top: 245px;
+  left: 0px;
+  width: 22px;
+  position: absolute;
+}
+
+.xx4{
+  top: 245px;
+  left: 0px;
+  width: 22px;
+  position: absolute;
+}
+
+.xx5{
+  top: 245px;
+  left: 0px;
+  width: 22px;
+  position: absolute;
+}
+
+.fs1 {
+  top: 252px;
+  left: 26px;
+  font-size: 14.5px;
+  position: absolute;
+}
+
+.fs2 {
+  top: 252px;
+  left: 26px;
+  font-size: 14.5px;
+  position: absolute;
+}
+
+.fs3 {
+  top: 252px;
+  left: 26px;
+  font-size: 14.5px;
+  position: absolute;
+}
+
+.fs4 {
+  top: 252px;
+  left: 26px;
+  font-size: 14.5px;
+  position: absolute;
+}
+
+.fs5 {
+  top: 252px;
+  left: 26px;
+  font-size: 14.5px;
+  position: absolute;
+}
+
+.jg1 {
+  position: absolute;
+  text-align: right;
+  text-shadow: 1px 1px 0 #000;
+  font-size: 1.25rem;
+  color: #FFC42B;
+  font-family: 'Minecraft', sans-serif;
+  top: 245.5px;
+  left: 212px;
+}
+
+.jg2 {
+  position: absolute;
+  text-align: right;
+  text-shadow: 1px 1px 0 #000;
+  font-size: 1.25rem;
+  color: #FFC42B;
+  font-family: 'Minecraft', sans-serif;
+  top: 245.5px;
+  left: 212px;
+}
+
+.jg3 {
+  position: absolute;
+  text-align: right;
+  text-shadow: 1px 1px 0 #000;
+  font-size: 1.25rem;
+  color: #FFC42B;
+  font-family: 'Minecraft', sans-serif;
+  top: 245.5px;
+  left: 212px;
+}
+
+.jg4 {
+  position: absolute;
+  text-align: right;
+  text-shadow: 1px 1px 0 #000;
+  font-size: 1.25rem;
+  color: #FFC42B;
+  font-family: 'Minecraft', sans-serif;
+  top: 245.5px;
+  left: 212px;
+}
+
+.jg5 {
+  position: absolute;
+  text-align: right;
+  text-shadow: 1px 1px 0 #000;
+  font-size: 1.25rem;
+  color: #FFC42B;
+  font-family: 'Minecraft', sans-serif;
+  top: 245.5px;
+  left: 212px;
+}
+
+.jp2 {
+  left: 186px;
+  width: 22px;
+  position: absolute;
+  top: 247px;
+}
+
+.jp3 {
+  left: 186px;
+  width: 22px;
+  position: absolute;
+  top: 247px;
+}
+
+.jp4 {
+  left: 186px;
+  width: 22px;
+  position: absolute;
+  top: 247px;
+}
+
+.jp5 {
+  left: 186px;
+  width: 22px;
+  position: absolute;
+  top: 247px;
+}
+
+.jp1 {
+  left: 186px;
+  width: 22px;
+  position: absolute;
+  top: 247px;
+}
+
+.d2bfyw {
+  height:623px ;
+  background-image: url('images/tu5.png'); /* 替换成你实际的图片路径 */
+  background-repeat: repeat-x; /* 水平重复 */
+  background-position: bottom center; /* 设置背景图位置在底部 */
+  background-size: auto; /* 或者调整为适当的大小，通常设置为auto让图片保持原有大小 */
 }
